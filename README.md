@@ -7,7 +7,7 @@
 
 #### Openasar
 
-Copy and paste the contents of [MaterialYouColors.theme.css](https://github.com/JustAlittleWolf/Material-You-Discord-Theme/blob/main/MaterialYouColors.theme.css) into Theming
+Copy and paste the contents of [MaterialYouColors.theme.css](https://github.com/JustAlittleWolf/Material-You-Discord-Theme/blob/main/MaterialYouColors.theme.css) into Theming and restart Discord
 
 #### Better Discord
 
