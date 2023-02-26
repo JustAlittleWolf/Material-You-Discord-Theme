@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Theme tester</title>
+    <link rel="stylesheet" href="discordPalette.css">
+    <link rel="stylesheet" href="referenceStyles.css">
     <link rel="stylesheet" href="style.css">
     <style>
         * {
@@ -16,7 +18,7 @@
         div {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-around;
+            justify-content: center;
             margin-bottom: 45px;
         }
 
@@ -24,7 +26,6 @@
             width: 120px;
             height: 120px;
             padding: 15px;
-            border-radius: 10px;
             font-size: larger;
             text-transform: capitalize;
             font-weight: 600;
@@ -38,7 +39,7 @@
 
 <body class="theme-dark" id="mainContainer">
     <script>
-        let cssRules = document.styleSheets[0].cssRules;
+        let cssRules = document.styleSheets[1].cssRules;
         for (let i = 0; i < cssRules.length; i++) {
             let cssRuleStyle = cssRules[i].style;
             let cssRuleName = cssRules[i].selectorText
