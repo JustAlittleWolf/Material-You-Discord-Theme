@@ -1,0 +1,39 @@
+/* <!-- js --> */
+/**
+ * @name Material You Colors
+ * @author JustAlittleWolf#7032
+ * @version 1.0.0
+ * @description A Material You color implementation for Discord
+ * @source https://github.com/JustAlittleWolf/Material-You-Discord-Theme
+*/
+
+/* <!-- css --> */
+/*@import url('https://raw.githubusercontent.com/JustAlittleWolf/Material-You-Discord-Theme/main/base.css');
+
+/* locally import */
+@import url("base.css");
+
+
+/* Variables */
+:root {
+    /*
+     * Select which hue of color you want Discord to be themed in.
+     * You can select a hue by going to https://htmlcolorcodes.com/color-picker/,
+     * selecting a color, then copying the "H" value and pasting it in below.
+     * range: 0.0-360.0
+     */
+    --myc-background-hue: 0;
+
+    /* suggested range: 0.5-10.0 */
+    --myc-background-saturation: 1.0;
+
+    /* suggested range: 0.8-2.5 */
+    --myc-background-lightness: 1.0;
+
+    /* suggested range: 0.5-2.0 */
+    --myc-link-lightness: 1.5;
+
+    /* 
+    suggested range: 0.7-1.2 */
+    --myc-ui-lightness: 1.0;
+}

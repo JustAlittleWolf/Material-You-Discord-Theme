@@ -1,67 +1,45 @@
 :root,
 .default-colors,
 .profileColors-3Y0XaR {
-    /*changes all of the main colors of the discord client*/
-    --primary-100-hsl: var(--material-you-base-hue) min(calc(var(--saturation-factor, 1)*5.9%*var(--material-you-saturation-factor)), 100%) 96.7% !important;
-    --primary-130-hsl: var(--material-you-base-hue) min(calc(var(--saturation-factor, 1)*9.1%*var(--material-you-saturation-factor)), 100%) 95.7% !important;
-    --primary-160-hsl: var(--material-you-base-hue) min(calc(var(--saturation-factor, 1)*9.7%*var(--material-you-saturation-factor)), 100%) 93.9% !important;
-    --primary-200-hsl: var(--material-you-base-hue) min(calc(var(--saturation-factor, 1)*10%*var(--material-you-saturation-factor)), 100%) 92.2% !important;
-    --primary-230-hsl: var(--material-you-base-hue) min(calc(var(--saturation-factor, 1)*8.8%*var(--material-you-saturation-factor)), 100%) 88.8% !important;
-    --primary-260-hsl: var(--material-you-base-hue) min(calc(var(--saturation-factor, 1)*7.7%*var(--material-you-saturation-factor)), 100%) 84.7% !important;
-    --primary-300-hsl: var(--material-you-base-hue) min(calc(var(--saturation-factor, 1)*6.7%*var(--material-you-saturation-factor)), 100%) 79.4% !important;
-    --primary-330-hsl: var(--material-you-base-hue) min(calc(var(--saturation-factor, 1)*5.2%*var(--material-you-saturation-factor)), 100%) 73.5% !important;
-    --primary-345-hsl: var(--material-you-base-hue) min(calc(var(--saturation-factor, 1)*6%*var(--material-you-saturation-factor)), 100%) 67.5% !important;
-    --primary-360-hsl: var(--material-you-base-hue) min(calc(var(--saturation-factor, 1)*5.1%*var(--material-you-saturation-factor)), 100%) 61.6% !important;
-    --primary-400-hsl: var(--material-you-base-hue) min(calc(var(--saturation-factor, 1)*5.5%*var(--material-you-saturation-factor)), 100%) 53.5% !important;
-    --primary-430-hsl: var(--material-you-base-hue) min(calc(var(--saturation-factor, 1)*4.8%*var(--material-you-saturation-factor)), 100%) 44.9% !important;
-    --primary-460-hsl: var(--material-you-base-hue) min(calc(var(--saturation-factor, 1)*5.2%*var(--material-you-saturation-factor)), 100%) 38% !important;
-    --primary-500-hsl: var(--material-you-base-hue) min(calc(var(--saturation-factor, 1)*6%*var(--material-you-saturation-factor)), 100%) 32.5% !important;
-    --primary-530-hsl: var(--material-you-base-hue) min(calc(var(--saturation-factor, 1)*6.5%*var(--material-you-saturation-factor)), 100%) 27.3% !important;
-    --primary-560-hsl: var(--material-you-base-hue) min(calc(var(--saturation-factor, 1)*6.7%*var(--material-you-saturation-factor)), 100%) 23.5% !important;
-    --primary-600-hsl: var(--material-you-base-hue) min(calc(var(--saturation-factor, 1)*6.7%*var(--material-you-saturation-factor)), 100%) 20.6% !important;
-    --primary-630-hsl: var(--material-you-base-hue) min(calc(var(--saturation-factor, 1)*6.5%*var(--material-you-saturation-factor)), 100%) 18% !important;
-    --primary-645-hsl: var(--material-you-base-hue) min(calc(var(--saturation-factor, 1)*7%*var(--material-you-saturation-factor)), 100%) 16.9% !important;
-    --primary-660-hsl: var(--material-you-base-hue) min(calc(var(--saturation-factor, 1)*6.7%*var(--material-you-saturation-factor)), 100%) 14.7% !important;
-    --primary-700-hsl: var(--material-you-base-hue) min(calc(var(--saturation-factor, 1)*6.3%*var(--material-you-saturation-factor)), 100%) 12.5% !important;
-    --primary-730-hsl: var(--material-you-base-hue) min(calc(var(--saturation-factor, 1)*7.1%*var(--material-you-saturation-factor)), 100%) 11% !important;
-    --primary-760-hsl: var(--material-you-base-hue) min(calc(var(--saturation-factor, 1)*6.4%*var(--material-you-saturation-factor)), 100%) 9.2% !important;
-    --primary-800-hsl: var(--material-you-base-hue) min(calc(var(--saturation-factor, 1)*8.1%*var(--material-you-saturation-factor)), 100%) 7.3% !important;
-    --primary-830-hsl: var(--material-you-base-hue) min(calc(var(--saturation-factor, 1)*4%*var(--material-you-saturation-factor)), 100%) 4.9% !important;
-    --primary-860-hsl: var(--material-you-base-hue) min(calc(var(--saturation-factor, 1)*7.7%*var(--material-you-saturation-factor)), 100%) 2.5% !important;
+    /* changes all of the main colors of the discord client */
+    --primary-100-hsl: var(--myc-background-hue) min(calc(var(--saturation-factor, 1)*5.9%*var(--myc-background-saturation)), 100%) min(calc(96.7%*var(--myc-background-lightness)), 100%) !important;
+    --primary-130-hsl: var(--myc-background-hue) min(calc(var(--saturation-factor, 1)*9.1%*var(--myc-background-saturation)), 100%) min(calc(95.7%*var(--myc-background-lightness)), 100%) !important;
+    --primary-160-hsl: var(--myc-background-hue) min(calc(var(--saturation-factor, 1)*9.7%*var(--myc-background-saturation)), 100%) min(calc(93.9%*var(--myc-background-lightness)), 100%) !important;
+    --primary-200-hsl: var(--myc-background-hue) min(calc(var(--saturation-factor, 1)*10%*var(--myc-background-saturation)), 100%) min(calc(92.2%*var(--myc-background-lightness)), 100%) !important;
+    --primary-230-hsl: var(--myc-background-hue) min(calc(var(--saturation-factor, 1)*8.8%*var(--myc-background-saturation)), 100%) min(calc(88.8%*var(--myc-background-lightness)), 100%) !important;
+    --primary-260-hsl: var(--myc-background-hue) min(calc(var(--saturation-factor, 1)*7.7%*var(--myc-background-saturation)), 100%) min(calc(84.7%*var(--myc-background-lightness)), 100%) !important;
+    --primary-300-hsl: var(--myc-background-hue) min(calc(var(--saturation-factor, 1)*6.7%*var(--myc-background-saturation)), 100%) min(calc(79.4%*var(--myc-background-lightness)), 100%) !important;
+    --primary-330-hsl: var(--myc-background-hue) min(calc(var(--saturation-factor, 1)*5.2%*var(--myc-background-saturation)), 100%) min(calc(73.5%*var(--myc-background-lightness)), 100%) !important;
+    --primary-345-hsl: var(--myc-background-hue) min(calc(var(--saturation-factor, 1)*6%*var(--myc-background-saturation)), 100%) min(calc(67.5%*var(--myc-background-lightness)), 100%) !important;
+    --primary-360-hsl: var(--myc-background-hue) min(calc(var(--saturation-factor, 1)*5.1%*var(--myc-background-saturation)), 100%) min(calc(61.6%*var(--myc-background-lightness)), 100%) !important;
+    --primary-400-hsl: var(--myc-background-hue) min(calc(var(--saturation-factor, 1)*5.5%*var(--myc-background-saturation)), 100%) min(calc(53.5%*var(--myc-background-lightness)), 100%) !important;
+    --primary-430-hsl: var(--myc-background-hue) min(calc(var(--saturation-factor, 1)*4.8%*var(--myc-background-saturation)), 100%) min(calc(44.9%*var(--myc-background-lightness)), 100%) !important;
+    --primary-460-hsl: var(--myc-background-hue) min(calc(var(--saturation-factor, 1)*5.2%*var(--myc-background-saturation)), 100%) min(calc(38%*var(--myc-background-lightness)), 100%) !important;
+    --primary-500-hsl: var(--myc-background-hue) min(calc(var(--saturation-factor, 1)*6%*var(--myc-background-saturation)), 100%) min(calc(32.5%*var(--myc-background-lightness)), 100%) !important;
+    --primary-530-hsl: var(--myc-background-hue) min(calc(var(--saturation-factor, 1)*6.5%*var(--myc-background-saturation)), 100%) min(calc(27.3%*var(--myc-background-lightness)), 100%) !important;
+    --primary-560-hsl: var(--myc-background-hue) min(calc(var(--saturation-factor, 1)*6.7%*var(--myc-background-saturation)), 100%) min(calc(23.5%*var(--myc-background-lightness)), 100%) !important;
+    --primary-600-hsl: var(--myc-background-hue) min(calc(var(--saturation-factor, 1)*6.7%*var(--myc-background-saturation)), 100%) min(calc(20.6%*var(--myc-background-lightness)), 100%) !important;
+    --primary-630-hsl: var(--myc-background-hue) min(calc(var(--saturation-factor, 1)*6.5%*var(--myc-background-saturation)), 100%) min(calc(18%*var(--myc-background-lightness)), 100%) !important;
+    --primary-645-hsl: var(--myc-background-hue) min(calc(var(--saturation-factor, 1)*7%*var(--myc-background-saturation)), 100%) min(calc(16.9%*var(--myc-background-lightness)), 100%) !important;
+    --primary-660-hsl: var(--myc-background-hue) min(calc(var(--saturation-factor, 1)*6.7%*var(--myc-background-saturation)), 100%) min(calc(14.7%*var(--myc-background-lightness)), 100%) !important;
+    --primary-700-hsl: var(--myc-background-hue) min(calc(var(--saturation-factor, 1)*6.3%*var(--myc-background-saturation)), 100%) min(calc(12.5%*var(--myc-background-lightness)), 100%) !important;
+    --primary-730-hsl: var(--myc-background-hue) min(calc(var(--saturation-factor, 1)*7.1%*var(--myc-background-saturation)), 100%) min(calc(11%*var(--myc-background-lightness)), 100%) !important;
+    --primary-760-hsl: var(--myc-background-hue) min(calc(var(--saturation-factor, 1)*6.4%*var(--myc-background-saturation)), 100%) min(calc(9.2%*var(--myc-background-lightness)), 100%) !important;
+    --primary-800-hsl: var(--myc-background-hue) min(calc(var(--saturation-factor, 1)*8.1%*var(--myc-background-saturation)), 100%) min(calc(7.3%*var(--myc-background-lightness)), 100%) !important;
+    --primary-830-hsl: var(--myc-background-hue) min(calc(var(--saturation-factor, 1)*4%*var(--myc-background-saturation)), 100%) min(calc(4.9%*var(--myc-background-lightness)), 100%) !important;
+    --primary-860-hsl: var(--myc-background-hue) min(calc(var(--saturation-factor, 1)*7.7%*var(--myc-background-saturation)), 100%) min(calc(2.5%*var(--myc-background-lightness)), 100%) !important;
 
-    /**
-    Changes the color of the discord logo and some buttons
-    DELETE THIS if you want to keep the discord-blue logo
-    */
-    --brand-100-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*77.8%) 98.2% !important;
-    --brand-130-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*87.5%) 96.9% !important;
-    --brand-160-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*84.6%) 94.9% !important;
-    --brand-200-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*83.3%) 92.9% !important;
-    --brand-230-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*87%) 91% !important;
-    --brand-260-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*86.2%) 88.6% !important;
-    --brand-300-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*86.1%) 85.9% !important;
-    --brand-330-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*85.1%) 81.6% !important;
-    --brand-345-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*85.2%) 78.8% !important;
-    --brand-360-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*86.1%) 77.5% !important;
-    --brand-400-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*86.1%) 71.8% !important;
-    --brand-430-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*85.7%) 69.8% !important;
-    --brand-460-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*85.5%) 67.5% !important;
-    --brand-500-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*85.6%) 64.7% !important;
-    --brand-530-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*66.7%) 58.8% !important;
-    --brand-560-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*51.4%) 52.4% !important;
-    --brand-600-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*46.7%) 44.1% !important;
-    --brand-630-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*46.7%) 38.2% !important;
-    --brand-660-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*47.1%) 33.3% !important;
-    --brand-700-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*47%) 25.9% !important;
-    --brand-730-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*46.8%) 24.3% !important;
-    --brand-760-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*46.9%) 22.2% !important;
-    --brand-800-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*47.5%) 19.4% !important;
-    --brand-830-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*47.4%) 14.9% !important;
-    --brand-860-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*46.9%) 9.6% !important;
-    --brand-900-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*50%) 3.1% !important;
+    /*
+     * Changes the color of the discord logo and some buttons
+     * DELETE THIS if you want to keep the discord-blue logo
+     */
+    --brand-260-hsl: var(--myc-background-hue) calc(var(--saturation-factor, 1)*86.2%*calc(1/calc(var(--myc-ui-lightness)+0.5))) min(calc(88.6%*var(--myc-ui-lightness)), 98.6%) !important;
+    --brand-360-hsl: var(--myc-background-hue) calc(var(--saturation-factor, 1)*86.1%*calc(1/calc(var(--myc-ui-lightness)+0.5))) min(calc(77.5%*var(--myc-ui-lightness)), 87.5%) !important;
+    --brand-500-hsl: var(--myc-background-hue) calc(var(--saturation-factor, 1)*85.6%*calc(1/calc(var(--myc-ui-lightness)+0.5))) min(calc(64.7%*var(--myc-ui-lightness)), 74.7%) !important;
+    --brand-560-hsl: var(--myc-background-hue) calc(var(--saturation-factor, 1)*51.4%*calc(1/calc(var(--myc-ui-lightness)+0.5))) min(calc(52.4%*var(--myc-ui-lightness)), 42.4%) !important;
 
-    /*changes the color of clickable links*/
-    --blue-330-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*100%) min(calc(59%*var(--material-you-link-lightness)), 99%) !important;
-    --blue-345-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*100%) min(calc(49.4%*var(--material-you-link-lightness)), 89.4%) !important;
-    --blue-430-hsl: var(--material-you-base-hue) calc(var(--saturation-factor, 1)*100%) min(calc(45.3%*var(--material-you-link-lightness)), 85.3%) !important;
+    /* changes the color of clickable links */
+    --blue-330-hsl: var(--myc-background-hue) calc(var(--saturation-factor, 1)*100%*calc(1/calc(var(--myc-link-lightness)+0.5))) min(calc(59%*var(--myc-link-lightness)), 99%) !important;
+    --blue-345-hsl: var(--myc-background-hue) calc(var(--saturation-factor, 1)*100%*calc(1/calc(var(--myc-link-lightness)+0.5))) min(calc(49.4%*var(--myc-link-lightness)), 89.4%) !important;
+    --blue-430-hsl: var(--myc-background-hue) calc(var(--saturation-factor, 1)*100%*calc(1/calc(var(--myc-link-lightness)+0.5))) min(calc(45.3%*var(--myc-link-lightness)), 85.3%) !important;
 }
