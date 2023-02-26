@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme tester</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            font-family: Inter, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+            text-align: center;
+        }
+
+        div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-bottom: 45px;
+        }
+
+        div span {
+            width: 120px;
+            height: 120px;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: larger;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body class="theme-dark" id="mainContainer">
+    <script>
+        let cssRules = document.styleSheets[0].cssRules;
+        for (let i = 0; i < cssRules.length; i++) {
+            let cssRuleStyle = cssRules[i].style;
+            let cssRuleName = cssRules[i].selectorText
+            let titleElement = document.createElement("h1");
+            titleElement.innerText = cssRuleName;
+            let divContainer = document.createElement("div");
+            divContainer.setAttribute("id", cssRuleName);
+            for (let j = 0; j < cssRuleStyle.length; j++) {
+                let property = cssRuleStyle[j];
+                if (!property.startsWith("--")) continue;
+                let value = cssRuleStyle.getPropertyValue(property);
+                let displayElement = document.createElement("span");
+                displayElement.style.backgroundColor = value;
+                displayElement.innerText = property.replaceAll("-", " ").trim();
+                divContainer.appendChild(displayElement);
+            }
+            document.getElementById("mainContainer").appendChild(titleElement);
+            document.getElementById("mainContainer").appendChild(divContainer);
+        }
+    </script>
+</body>
+
+</html>
