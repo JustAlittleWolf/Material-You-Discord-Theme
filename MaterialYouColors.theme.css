@@ -77,3 +77,8 @@
     --blue-345-hsl: var(--myc-background-hue) calc(var(--saturation-factor, 1)*100%*calc(1/calc(var(--myc-link-lightness)+0.5))) min(calc(49.4%*var(--myc-link-lightness)), 89.4%) !important;
     --blue-430-hsl: var(--myc-background-hue) calc(var(--saturation-factor, 1)*100%*calc(1/calc(var(--myc-link-lightness)+0.5))) min(calc(45.3%*var(--myc-link-lightness)), 85.3%) !important;
 }
+
+*::selection {
+    /* Changes the color when selecting text */
+    background-color: hsl(var(--myc-background-hue) calc(var(--saturation-factor, 1)*51.4%*calc(1/calc(var(--myc-ui-lightness)+0.5))) min(calc(52.4%*var(--myc-ui-lightness)), 42.4%)/1) !important;
+}
