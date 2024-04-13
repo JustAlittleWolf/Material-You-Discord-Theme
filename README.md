@@ -11,7 +11,7 @@ Copy and paste the contents of [MaterialYouColors.theme.css](https://github.com/
 
 #### Better Discord
 
-Download the latest [Release](https://github.com/JustAlittleWolf/Material-You-Discord-Theme/releases/download/1.0.0/MaterialYouColors.theme.css) and drop it into your Themes folder
+Download the latest [Release](https://github.com/JustAlittleWolf/Material-You-Discord-Theme/releases) and drop it into your Themes folder
 
 ### Customization
 
